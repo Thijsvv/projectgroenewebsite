@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  font-family: "Limelight", sans-serif;
+  background-color: white;
+  font-size: 35px;
+}
+
+.hometekst {
+  margin: 7%;
+}
+
+header img {animation: slidein 1s ease forwards;
+width: 90px;
+}
+
+.animatie-slidein {
+  animation-name: slidein;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes slidein {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100% {transform: translateX(0);
+  opacity: 1;
+}
+}
+
+h1 img {
+  display: flex;
+  width: 800px;
+}
+
+
+.bellboy1 {
+  display: flex;
+  margin-top: -10%;
+  width: 50%;
+  float: right;
+  position: relative; 
+}
+
+.intro {
+  padding: 5%;
+  background-color: #dcc47c;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.bellboy2 {
+  display: flex;
+  float: right;
+  position: relative; 
+  width: 45%;
+}
+
+.welkomstekst { 
+  margin-top: -2%;
+  padding: 5%;
+  background-color: #dcc47c;
+  text-align: center;
+}
+
+.sociaaltekst2 {
+  display: flex;
+  background-color: #dcc47c;
+  float: left;
+  margin-top: 20%;
+  padding: 5%;
+}
+
+.hotelstudie {
+  display: flex;
+  width: 380px;
+}
+
+.restaurant {
+  width: 380px;
+  margin-top: 20%;
+}
+
+.eindtekstsociaal {
+  display: flex;
+  background-color: #dcc47c;
+  padding: 5%;
+  text-align: center;
+  position: relative;
+}
+
+.frietmand {
+  display: flex;
+  width: 50%;
+  float: right;
+  position: relative;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.bellboy3 {
+  display: flex;
+  width: 50%;
+  float: left;
+  position: relative;
+  margin-top: -10%;
+}
+
+.ecoafsluiter {
+  background-color: #dcc47c;
+  padding: 5%;
+  text-align: center;
+  margin-top: 20%;
+}
+
+body {
+    color: rgb(136, 77, 0);
+    background-color: rgb(216, 222, 90) 
+}
+
+
+nav a{color: white;
+}
+
+.sluit {
+  display: flex;
+  width: 380px;
+  position: relative;
+  margin-top: 20%;
+}
+
+
+footer {
+position: fixed;
+bottom: 0%;
+  background-color: rgb(150, 118, 14);
+  display: flex;
+ justify-content: center;
+ width: 100%;
+}
+
+footer img {
+  padding: 5%;
+  width: 90px;
+}
+
+h2 img {
+width: 100%;
+}
+
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  
+}
+
+a {
+  text-decoration: none;
+  color: black
+}
+
+
+hr {border-color: rgb(170, 138, 21);
+}
